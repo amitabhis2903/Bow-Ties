@@ -13,6 +13,7 @@
 		00E3047A22971A9100CCC69F /* Bow_Ties.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00E3047822971A9100CCC69F /* Bow_Ties.xcdatamodeld */; };
 		00E3047C22971A9200CCC69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E3047B22971A9200CCC69F /* Assets.xcassets */; };
 		00E3047F22971A9200CCC69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E3047D22971A9200CCC69F /* LaunchScreen.storyboard */; };
+		00E3048722971AA300CCC69F /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00E3048622971AA300CCC69F /* SampleData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		00E3047B22971A9200CCC69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00E3047E22971A9200CCC69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E3048022971A9200CCC69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E3048622971AA300CCC69F /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				00E3047D22971A9200CCC69F /* LaunchScreen.storyboard */,
 				00E3048022971A9200CCC69F /* Info.plist */,
 				00E3047822971A9100CCC69F /* Bow_Ties.xcdatamodeld */,
+				00E3048622971AA300CCC69F /* SampleData.plist */,
 			);
 			path = "Bow Ties";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				00E3047F22971A9200CCC69F /* LaunchScreen.storyboard in Resources */,
 				00E3047C22971A9200CCC69F /* Assets.xcassets in Resources */,
+				00E3048722971AA300CCC69F /* SampleData.plist in Resources */,
 				00E3047722971A9100CCC69F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
