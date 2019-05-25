@@ -14,6 +14,9 @@
 		00E3047C22971A9200CCC69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E3047B22971A9200CCC69F /* Assets.xcassets */; };
 		00E3047F22971A9200CCC69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E3047D22971A9200CCC69F /* LaunchScreen.storyboard */; };
 		00E3048722971AA300CCC69F /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00E3048622971AA300CCC69F /* SampleData.plist */; };
+		00E3048E2297C21600CCC69F /* Bowtie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E3048C2297C21600CCC69F /* Bowtie+CoreDataClass.swift */; };
+		00E3048F2297C21600CCC69F /* Bowtie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E3048D2297C21600CCC69F /* Bowtie+CoreDataProperties.swift */; };
+		00E304912297DA6A00CCC69F /* CoreDataApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E304902297DA6A00CCC69F /* CoreDataApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		00E3047E22971A9200CCC69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E3048022971A9200CCC69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E3048622971AA300CCC69F /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		00E3048C2297C21600CCC69F /* Bowtie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		00E3048D2297C21600CCC69F /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		00E304902297DA6A00CCC69F /* CoreDataApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,10 @@
 				00E3047D22971A9200CCC69F /* LaunchScreen.storyboard */,
 				00E3048022971A9200CCC69F /* Info.plist */,
 				00E3047822971A9100CCC69F /* Bow_Ties.xcdatamodeld */,
+				00E3048C2297C21600CCC69F /* Bowtie+CoreDataClass.swift */,
+				00E3048D2297C21600CCC69F /* Bowtie+CoreDataProperties.swift */,
 				00E3048622971AA300CCC69F /* SampleData.plist */,
+				00E304902297DA6A00CCC69F /* CoreDataApi.swift */,
 			);
 			path = "Bow Ties";
 			sourceTree = "<group>";
@@ -145,6 +154,9 @@
 				00E3047A22971A9100CCC69F /* Bow_Ties.xcdatamodeld in Sources */,
 				00E3047422971A9100CCC69F /* ViewController.swift in Sources */,
 				00E3047222971A9100CCC69F /* AppDelegate.swift in Sources */,
+				00E304912297DA6A00CCC69F /* CoreDataApi.swift in Sources */,
+				00E3048E2297C21600CCC69F /* Bowtie+CoreDataClass.swift in Sources */,
+				00E3048F2297C21600CCC69F /* Bowtie+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

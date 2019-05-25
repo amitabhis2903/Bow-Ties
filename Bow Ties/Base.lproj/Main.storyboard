@@ -30,10 +30,10 @@
                                     <segment title="V"/>
                                 </segments>
                                 <connections>
-                                    <action selector="segmentedControlWithControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="WbK-4q-rKD"/>
+                                    <action selector="segmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="KDF-cm-6z1"/>
                                 </connections>
                             </segmentedControl>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QBA-Me-ulb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QBA-Me-ulb">
                                 <rect key="frame" x="20" y="148" width="374" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="vnI-Im-HOx"/>
@@ -106,7 +106,6 @@
                             <constraint firstItem="KE3-nQ-6bg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="EM1-8q-VdS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sJp-KQ-bm9" secondAttribute="trailing" constant="20" id="NM5-09-4Fh"/>
                             <constraint firstItem="WO9-jx-GTH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Sj6-Ve-fXS"/>
-                            <constraint firstItem="sJp-KQ-bm9" firstAttribute="leading" secondItem="jnj-n0-YhT" secondAttribute="trailing" constant="234" id="TGJ-Yf-CXq"/>
                             <constraint firstItem="Hzw-lR-Wg3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Vh9-wz-Nvm"/>
                             <constraint firstItem="QBA-Me-ulb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bzg-he-9UR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QBA-Me-ulb" secondAttribute="trailing" constant="20" id="cTn-PZ-VVk"/>
